@@ -8,8 +8,9 @@
     <p>
             This is my practise page for javascript
     </p>
+
     <div>
-    <p>
+        <p>
             <br>
             <input type="text" name="txtinput" id="txtinput" placeholder="Type here">
            
@@ -18,11 +19,39 @@
             <button type="button" onclick="alert_output()"> Pop Up </button>
             <button type="button" onclick="write_output()"> In the body </button>
             <button type="button" onclick="console_output()"> In Console</button>
-    </p>
+        </p>
     
-    <p id="outputline"> -
-    </p>
-    
+        <p id="outputline"> -
+        </p>
+        
+        <p>
+            <br>
+            <table>
+                <tr>
+                    <th>
+                        <label for="n1"> Number/Numerator </label>
+                        <input type="number", name="number1", id="n1">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="radio", name="math_operator", id="add",  value="1">
+                        <label for "add"> + </label>
+                        <input type="radio", name="math_operator", id ="minus", value="2">
+                        <label for="minus"> - </label>
+                        <input type="radio" name="math_operator" id="multiply", value="3">
+                        <label for="multiply"> X </label>
+                        <input type="radio" name="math_operator" id="divide", value="4">
+                        <label for="divide"> ÷ </label>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <label for "n2"> Number/Denominator </label>
+                        <input type="number", name="number2", id="n2">
+                    </th>
+                </tr>
+        </p>
     </div>
     </body>
 </html> 
