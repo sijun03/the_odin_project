@@ -12,7 +12,7 @@
     <div>
         <p>
             <br>
-            <input type="text" name="txtinput" id="txtinput" placeholder="Type here">
+            <input type="text" name="textinput" id="txtinput" placeholder="Type here">
            
             <script src="cals.js"> </script>
 
@@ -29,25 +29,33 @@
             <table>
                 <tr>
                     <th>
-                        <label for="n1"> Number/Numerator </label>
+                        <label for="n1"> Number </label>
+                    </th>
+                    <th>
                         <input type="number", name="number1", id="n1">
                     </th>
                 </tr>
+
                 <tr>
                     <th>
-                        <input type="radio", name="math_operator", id="add",  value="1">
-                        <label for "add"> + </label>
-                        <input type="radio", name="math_operator", id ="minus", value="2">
-                        <label for="minus"> - </label>
-                        <input type="radio" name="math_operator" id="multiply", value="3">
-                        <label for="multiply"> X </label>
-                        <input type="radio" name="math_operator" id="divide", value="4">
-                        <label for="divide"> ÷ </label>
+
+                    </th>
+                    <th>
+                        <button type="button" onclick="add_numbers()"> + </button>
+                  
+                        <button type="button" onclick="substract_numbers()"> - </button>
+                   
+                        <button type="button" onclick="multiply_numbers()"> x </button>
+                   
+                        <button type="button" onclick="div_numbers()"> ÷ </button>
                     </th>
                 </tr>
+
                 <tr>
                     <th>
-                        <label for "n2"> Number/Denominator </label>
+                        <label for "n2"> Number </label>
+                    </th>
+                    <th>
                         <input type="number", name="number2", id="n2">
                     </th>
                 </tr>
